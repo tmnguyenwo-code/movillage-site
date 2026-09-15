@@ -9,9 +9,6 @@ import Packages from '@/components/sections/Packages';
 import Directions from '@/components/sections/Directions';
 import Booking from '@/components/sections/Booking';
 import ScrollToTop from '@/components/ScrollToTop';
-import { useContext, createContext } from 'react';
-
-const BookingContext = createContext<(() => void) | null>(null);
 
 export default function Home() {
   return (
