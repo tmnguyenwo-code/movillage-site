@@ -25,7 +25,7 @@ export default function Rooms() {
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: false, amount: 0.3 }}
+          viewport={{ once: false, amount: 0.2 }}
           transition={{ duration: 0.8 }}
         >
           <p className="text-body-sm uppercase tracking-wide text-bamboo-shoot mb-4">
@@ -39,7 +39,7 @@ export default function Rooms() {
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: false, amount: 0.3 }}
+          viewport={{ once: false, amount: 0.1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
         >

@@ -25,7 +25,7 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.5 }}
           className="max-w-4xl"
         >
-          <div className="relative w-80 h-36 sm:w-[30rem] sm:h-48 lg:w-[36rem] lg:h-60 mx-auto mb-6">
+          <div className="relative w-[33.8rem] h-[15.2rem] sm:w-[50.7rem] sm:h-[20.3rem] lg:w-[60.8rem] lg:h-[25.4rem] mx-auto mb-6">
             <Image
               src="/01-mo-village-primary-stacked.svg"
               alt={t('title')}
@@ -35,20 +35,20 @@ export default function Hero() {
             />
           </div>
 
-          <p className="text-body-2xl lg:text-display-sm mb-8 text-warm-paper drop-shadow max-w-2xl mx-auto">
+          <p className="text-body-lg sm:text-body-2xl lg:text-display-sm mb-6 text-warm-paper drop-shadow max-w-2xl mx-auto px-4">
             {t('subtitle')}
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-3 justify-center items-center px-4">
             <a
               href="#booking"
-              className="inline-block bg-terracotta hover:bg-terracotta/90 text-warm-paper px-8 py-4 rounded-lg text-ui-base transition-colors"
+              className="bg-terracotta hover:bg-terracotta/90 text-warm-paper px-6 py-3 sm:px-8 sm:py-4 rounded-lg text-ui-sm sm:text-ui-base transition-colors w-auto"
             >
               {t('ctaPrimary')}
             </a>
             <a
               href="#rooms"
-              className="inline-block bg-warm-paper/20 backdrop-blur-sm hover:bg-warm-paper/30 text-warm-paper px-8 py-4 rounded-lg text-ui-base transition-colors border border-warm-paper/30"
+              className="bg-warm-paper/20 backdrop-blur-sm hover:bg-warm-paper/30 text-warm-paper px-6 py-3 sm:px-8 sm:py-4 rounded-lg text-ui-sm sm:text-ui-base transition-colors border border-warm-paper/30 w-auto"
             >
               {t('ctaSecondary')}
             </a>
