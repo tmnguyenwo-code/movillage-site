@@ -1,0 +1,29 @@
+[
+  {
+    "created_at": "2026-09-14T07:52:35.573104Z",
+    "display_name": "Kling 3.0 Turbo",
+    "id": "558a1789-a758-4c7b-b315-35bde32c726e",
+    "job_type": "kling3_0_turbo",
+    "min_result_url": null,
+    "params": {
+      "duration": 5,
+      "height": 720,
+      "medias": [
+        {
+          "data": {
+            "id": "9dc2c3a7-3333-4c52-b084-1ce81f1fab97",
+            "type": "media_input",
+            "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_376GHvoe8SBSCMkXFiPx3wgmf4L/9dc2c3a7-3333-4c52-b084-1ce81f1fab97.webp"
+          },
+          "role": "start_image"
+        }
+      ],
+      "prompt": "Cinematic slow motion at Hòa Bình Lake. Kayakers paddle gently across calm water while small ripples spread naturally from each paddle. Preserve people, boats, shoreline, and mountain forms from source image. Subtle forward camera drift, soft morning haze, elegant realistic travel film, no cuts, no text.",
+      "resolution": "720p",
+      "width": 1280
+    },
+    "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_376GHvoe8SBSCMkXFiPx3wgmf4L/hf_20260914_075235_558a1789-a758-4c7b-b315-35bde32c726e.mp4",
+    "status": "completed",
+    "thumbnail_url": "https://cdn.higgsfield.ai/user_376GHvoe8SBSCMkXFiPx3wgmf4L/hf_20260914_075235_558a1789-a758-4c7b-b315-35bde32c726e_thumbnail.webp"
+  }
+]

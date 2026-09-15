@@ -16,6 +16,7 @@ export default function Experiences() {
     '/images/facilities/b-bi-v-cc-img4506.webp',
     '/images/facilities/bn-bi-a-img4621.webp',
     '/images/facilities/b-bi-v-cc-dji0157-1.webp',
+    '/images/facilities/b-bi-v-cc-dji0111.webp',
   ];
 
   return (
@@ -62,7 +63,7 @@ export default function Experiences() {
               {t('onsiteTitle')}
             </h3>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {[0, 1, 2, 3, 4].map((index) => (
+              {[0, 1, 2, 3, 4, 5].map((index) => (
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, y: 20 }}
@@ -70,7 +71,7 @@ export default function Experiences() {
                   viewport={{ once: true, amount: 0.2 }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                 >
-                  <Card className="overflow-hidden bg-warm-paper/95 backdrop-blur-sm">
+                  <Card className="overflow-hidden bg-warm-paper/95 backdrop-blur-sm h-full flex flex-col">
                     <div className="relative aspect-[16/10]">
                       <Image
                         src={onsiteImages[index]}
@@ -79,7 +80,7 @@ export default function Experiences() {
                         className="object-cover"
                       />
                     </div>
-                    <div className="p-5">
+                    <div className="p-5 flex-1 flex flex-col">
                       <h4 className="text-body-lg font-semibold text-espresso mb-2">
                         {t(`onsite.${index}.name`)}
                       </h4>
@@ -105,7 +106,7 @@ export default function Experiences() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, amount: 0.2 }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
-                  className="p-6 bg-warm-paper/95 backdrop-blur-sm rounded-lg"
+                  className="p-6 bg-warm-paper/95 backdrop-blur-sm rounded-lg h-full flex flex-col"
                 >
                   <h4 className="text-body-lg font-semibold text-espresso mb-2">
                     {t(`workshops.${index}.name`)}
@@ -132,12 +133,12 @@ export default function Experiences() {
               {[0, 1, 2, 3].map((index) => (
                 <div
                   key={index}
-                  className="p-6 bg-warm-paper/95 backdrop-blur-sm rounded-lg"
+                  className="p-6 bg-warm-paper/95 backdrop-blur-sm rounded-lg h-full flex flex-col"
                 >
                   <h4 className="text-body-lg font-semibold text-espresso mb-2">
                     {t(`nearby.${index}.name`)}
                   </h4>
-                  <p className="text-body-base text-espresso/90 mb-3">
+                  <p className="text-body-base text-espresso/90 mb-3 flex-1">
                     {t(`nearby.${index}.description`)}
                   </p>
                   <p className="text-body-sm text-stilt-timber">

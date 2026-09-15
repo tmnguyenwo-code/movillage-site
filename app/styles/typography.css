@@ -1,0 +1,183 @@
+/* Mơ Village Typography System - Approved Brand Guidelines */
+
+/* Base Typography */
+body {
+  font-family: var(--font-be-vietnam-pro), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 16px;
+  line-height: 1.625; /* 26px / 16px = 1.625 (EN) */
+  color: var(--color-espresso);
+  font-weight: 400;
+}
+
+/* Vietnamese line height adjustment */
+html[lang="vi"] body {
+  line-height: 1.75; /* 28px / 16px = 1.75 (VI) */
+}
+
+/* Display Typography - Fraunces 500/600 for short text only */
+.text-display {
+  font-family: var(--font-fraunces), Georgia, 'Times New Roman', serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.2; /* 60px / 52px */
+}
+
+.text-display-xl {
+  font-family: var(--font-fraunces), Georgia, 'Times New Roman', serif;
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 1.154; /* 60px / 52px = 1.154 (EN) */
+  letter-spacing: -0.01em;
+}
+
+html[lang="vi"] .text-display-xl {
+  line-height: 1.231; /* 64px / 52px = 1.231 (VI) */
+}
+
+.text-display-lg {
+  font-family: var(--font-fraunces), Georgia, 'Times New Roman', serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.2; /* 48px / 40px = 1.2 (EN) */
+  letter-spacing: -0.01em;
+}
+
+html[lang="vi"] .text-display-lg {
+  line-height: 1.3; /* 52px / 40px = 1.3 (VI) */
+}
+
+.text-display-md {
+  font-family: var(--font-fraunces), Georgia, 'Times New Roman', serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.25; /* 40px / 32px = 1.25 (EN) */
+  letter-spacing: -0.005em;
+}
+
+html[lang="vi"] .text-display-md {
+  line-height: 1.375; /* 44px / 32px = 1.375 (VI) */
+}
+
+.text-display-sm {
+  font-family: var(--font-fraunces), Georgia, 'Times New Roman', serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.333; /* 32px / 24px = 1.333 (EN) */
+  letter-spacing: 0;
+}
+
+html[lang="vi"] .text-display-sm {
+  line-height: 1.417; /* 34px / 24px = 1.417 (VI) */
+}
+
+/* Body Typography - Be Vietnam Pro */
+.text-body-xl {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.556; /* 28px / 18px = 1.556 (EN) */
+  letter-spacing: 0;
+}
+
+html[lang="vi"] .text-body-xl {
+  line-height: 1.667; /* 30px / 18px = 1.667 (VI) */
+}
+
+.text-body-lg {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.556;
+  letter-spacing: 0;
+}
+
+html[lang="vi"] .text-body-lg {
+  line-height: 1.667;
+}
+
+.text-body-base {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.625; /* 26px / 16px = 1.625 (EN) */
+  letter-spacing: 0;
+}
+
+html[lang="vi"] .text-body-base {
+  line-height: 1.75; /* 28px / 16px = 1.75 (VI) */
+}
+
+.text-body-sm {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.429; /* 20px / 14px = 1.429 (EN) */
+  letter-spacing: 0.005em;
+}
+
+html[lang="vi"] .text-body-sm {
+  line-height: 1.571; /* 22px / 14px = 1.571 (VI) */
+}
+
+/* UI Typography - Be Vietnam Pro medium/semibold */
+.text-ui-base {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.286; /* 18px / 14px = 1.286 (EN) */
+  letter-spacing: 0.01em;
+}
+
+html[lang="vi"] .text-ui-base {
+  line-height: 1.429; /* 20px / 14px = 1.429 (VI) */
+}
+
+.text-ui-sm {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.286;
+  letter-spacing: 0.01em;
+}
+
+/* Responsive reductions for mobile */
+@media (max-width: 640px) {
+  .text-display-xl {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+  
+  html[lang="vi"] .text-display-xl {
+    line-height: 1.3;
+  }
+
+  .text-display-lg {
+    font-size: 32px;
+    line-height: 1.25;
+  }
+
+  html[lang="vi"] .text-display-lg {
+    line-height: 1.375;
+  }
+
+  .text-display-md {
+    font-size: 28px;
+    line-height: 1.286;
+  }
+
+  html[lang="vi"] .text-display-md {
+    line-height: 1.429;
+  }
+}
+
+/* Font weight utilities matching approved spec */
+.font-normal {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+/* Never allow bold beyond approved 600 */
+.font-bold {
+  font-weight: 600;
+}

@@ -1,0 +1,104 @@
+/* Mơ Village Design Tokens */
+
+:root {
+  /* Brand Colors - Primary */
+  --color-espresso: #2C150F;
+  --color-espresso-rgb: 44, 21, 15;
+
+  /* Brand Colors - Supporting Palette */
+  --color-lake-dawn: #6F8B8F;
+  --color-lake-dawn-rgb: 111, 139, 143;
+
+  --color-karst-mist: #D3D8D3;
+  --color-karst-mist-rgb: 211, 216, 211;
+
+  --color-stilt-timber: #8A6F5C;
+  --color-stilt-timber-rgb: 138, 111, 92;
+
+  --color-apricot: #D8C1BC;
+  --color-apricot-rgb: 216, 193, 188;
+
+  --color-bamboo: #9AA487;
+  --color-bamboo-rgb: 154, 164, 135;
+
+  --color-terracotta: #B56E5A;
+  --color-terracotta-rgb: 181, 110, 90;
+
+  /* Neutrals */
+  --color-warm-paper: #F7F3EE;
+  --color-warm-paper-rgb: 247, 243, 238;
+
+  --color-soft-sand: #EDE4D8;
+  --color-soft-sand-rgb: 237, 228, 216;
+
+  --color-charcoal: #1F1F1F;
+  --color-charcoal-rgb: 31, 31, 31;
+
+  /* Semantic Colors */
+  --color-background: var(--color-warm-paper);
+  --color-foreground: var(--color-espresso);
+  --color-primary: var(--color-espresso);
+  --color-secondary: var(--color-lake-dawn);
+  --color-accent: var(--color-terracotta);
+
+  /* Spacing System (4px base) */
+  --space-1: 0.25rem; /* 4px */
+  --space-2: 0.5rem; /* 8px */
+  --space-3: 0.75rem; /* 12px */
+  --space-4: 1rem; /* 16px */
+  --space-6: 1.5rem; /* 24px */
+  --space-8: 2rem; /* 32px */
+  --space-12: 3rem; /* 48px */
+  --space-16: 4rem; /* 64px */
+  --space-24: 6rem; /* 96px */
+  --space-32: 8rem; /* 128px */
+
+  /* Border Radius */
+  --radius-sm: 3px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Z-Index Scale */
+  --z-base: 0;
+  --z-dropdown: 10;
+  --z-sticky: 20;
+  --z-fixed: 30;
+  --z-modal: 40;
+  --z-popover: 50;
+  --z-tooltip: 60;
+
+  /* Container Max Width */
+  --container-xs: 640px;
+  --container-sm: 768px;
+  --container-md: 1024px;
+  --container-lg: 1280px;
+  --container-xl: 1440px;
+  --container-2xl: 1600px;
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transition-fast: 0ms;
+    --transition-base: 0ms;
+    --transition-slow: 0ms;
+  }
+
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

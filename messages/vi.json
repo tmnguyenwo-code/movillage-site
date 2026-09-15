@@ -6,14 +6,15 @@
     "experiences": "Trải nghiệm",
     "gallery": "Thư viện",
     "packages": "Gói dịch vụ",
-    "booking": "Đặt phòng"
+    "directions": "Đường đến Mơ",
+    "booking": "Đặt chỗ nghỉ"
   },
   "hero": {
     "title": "Mơ Village",
     "subtitle": "Một giấc mơ dịu trên mặt hồ Hòa Bình",
     "tagline": "Hòa Bình is a kinder place here",
     "cta": "Khám phá ngay",
-    "ctaPrimary": "Đặt phòng ngay",
+    "ctaPrimary": "Đặt chỗ nghỉ của bạn",
     "ctaSecondary": "Xem phòng"
   },
   "story": {
@@ -173,39 +174,43 @@
     "onsiteTitle": "Hoạt động tại Mơ",
     "onsite": [
       {
-        "name": "Chèo kayak",
-        "description": "Khám phá hồ Hòa Bình bằng kayak vào buổi sáng sớm, ngắm sương mù"
+        "name": "Bể sục Onsen 4 mùa",
+        "description": "Thư giãn trong bể sục nước nóng tự nhiên giữa không gian núi rừng"
       },
       {
-        "name": "Câu cá",
-        "description": "Câu cá trên bè nổi, thưởng thức cá tươi nướng ngay tại chỗ"
+        "name": "Phòng xông ướt, xông khô",
+        "description": "Xông hơi thải độc, làm sạch cơ thể và tâm trí"
       },
       {
-        "name": "Bè nổi",
-        "description": "Nghỉ ngơi trên bè nổi giữa hồ, ngắm mây trôi và núi xa"
+        "name": "Ngâm bồn thuốc thảo dược",
+        "description": "Ngâm mình trong các loại thảo dược thiên nhiên, phục hồi năng lượng"
       },
       {
-        "name": "Tour thuyền",
+        "name": "Giải trí trên hồ",
+        "description": "Kayak, cano, câu cá - khám phá hồ Hòa Bình bằng nhiều cách"
+      },
+      {
+        "name": "Tour thuyền thăm quan",
         "description": "Du thuyền ngắm hoàng hôn, ghé thăm làng nổi và làng cá"
       },
       {
-        "name": "Team building",
-        "description": "Các hoạt động xây dựng đội nhóm ngoài trời với backdrop hồ núi"
+        "name": "Team Building",
+        "description": "Tổ chức team building cho công ty và nhóm lớn với hoạt động ngoài trời và không gian riêng tư"
       }
     ],
     "workshopsTitle": "Workshop & văn hóa",
     "workshops": [
       {
         "name": "Cắm hoa",
-        "description": "Workshop cắm hoa phong cách tự nhiên với hoa địa phương"
+        "description": "Workshop cắm hoa phong cách tự nhiên với hoa địa phương, thể hiện vẻ đẹp giản dị của núi rừng Hòa Bình"
       },
       {
         "name": "Làm bánh",
-        "description": "Học làm bánh truyền thống Mường và bánh hiện đại"
+        "description": "Học làm bánh truyền thống Mường như bánh dày, cốm, và các món bánh hiện đại từ nguyên liệu địa phương"
       },
       {
         "name": "Thủ công",
-        "description": "Dệt thổ cẩm, làm đồ gỗ, học nghề thủ công Mường"
+        "description": "Dệt thổ cẩm Mường với họa tiết truyền thống, làm đồ gỗ, và học các nghề thủ công từ người dân bản địa"
       }
     ],
     "nearbyTitle": "Điểm đến lân cận",
@@ -213,22 +218,22 @@
       {
         "name": "Chúa Thác Bờ",
         "distance": "15km",
-        "description": "Thác nước hùng vĩ cao 300m, điểm check-in nổi tiếng"
+        "description": "Thác nước hùng vĩ cao 300m với cảnh quan tráng lệ, nơi du khách có thể chiêm ngưỡng thiên nhiên hoang sơ và chụp ảnh check-in đẹp mắt"
       },
       {
         "name": "Suối Ké",
         "distance": "8km",
-        "description": "Suối đá tự nhiên trong vắt, lý tưởng để tắm mát"
+        "description": "Suối đá tự nhiên trong vắt với dòng nước mát lạnh quanh năm, nơi lý tưởng để tắm mát và thư giãn giữa thiên nhiên"
       },
       {
         "name": "Hang Lỗ Làn",
         "distance": "12km",
-        "description": "Hang động tự nhiên với nhũ đá độc đáo"
+        "description": "Hang động tự nhiên với nhũ đá hình thành hàng nghìn năm, một kỳ quan địa chất độc đáo của vùng núi đá vôi Hòa Bình"
       },
       {
         "name": "Bản Sưng",
         "distance": "10km",
-        "description": "Bản làng Mường truyền thống, trải nghiệm văn hóa bản địa"
+        "description": "Bản làng Mường truyền thống giữ gìn văn hóa bản địa, nơi bạn có thể trải nghiệm lối sống, trang phục và ẩm thực của người Mường"
       }
     ]
   },
@@ -302,12 +307,24 @@
   "booking": {
     "eyebrow": "Đặt phòng ngay",
     "title": "Đặt phòng",
+    "connectWith": "Hoặc liên hệ trực tiếp với chúng tôi",
+    "cta": {
+      "eyebrow": "GỬI MỘT LỜI HẸN",
+      "heading": "Cuối tuần này, mình đi Mơ nhé?",
+      "subheading": "Chọn ngày, chọn người đồng hành. Phần biên văn chuẩn bị, để Mơ chuẩn bị.",
+      "button": "Đặt chỗ nghỉ"
+    },
+    "zaloInfo": "Liên hệ với chúng tôi qua Zalo để được phản hồi nhanh nhất",
+    "facebookInfo": "Hoặc kết nối với chúng tôi qua Facebook",
+    "responseTime": "Chúng tôi thường phản hồi trong vòng 1-2 giờ",
     "form": {
       "name": "Họ và tên",
       "phone": "Số điện thoại",
       "checkin": "Ngày nhận phòng",
       "checkout": "Ngày trả phòng",
       "guests": "Số khách",
+      "roomPreference": "Loại phòng mong muốn",
+      "selectRoom": "Chọn loại phòng",
       "requests": "Yêu cầu đặc biệt",
       "submit": "Gửi yêu cầu",
       "submitting": "Đang gửi...",
@@ -329,5 +346,57 @@
   "footer": {
     "copyright": "© 2024 Mơ Village. Bảo lưu mọi quyền.",
     "social": "Kết nối với chúng tôi"
+  },
+  "directions": {
+    "title": "Đường đến Mơ",
+    "subtitle1": "Rời phố một chút.",
+    "subtitle2": "Chạm hồ thật gần.",
+    "subtitle3": "Từ trung tâm Hà Nội, hành trình hơn 100 km đưa bạn qua những triền núi và đường ven hồ. Cung đường đẹp, có đoạn đèo dốc — hãy đi thong thả, Mơ vẫn ở đây chờ.",
+    "getDirections": "Chỉ đường",
+    "faq": [
+      {
+        "question": "Mơ cách Hà Nội bao xa?",
+        "answer": "Mơ nằm bên hồ Hòa Bình, tại khu vực Đà Bắc, cách Hà Nội hơn 100 km. Thời gian di chuyển thường khoảng 3–3,5 giờ tùy cung đường và điều kiện giao thông."
+      },
+      {
+        "question": "Đến Mơ có thể làm gì?",
+        "answer": "Bạn có thể chèo kayak, bơi giữa núi rừng, thư giãn tại bể sục, xông hơi, đọc sách, câu cá, dùng bữa vị Tây Bắc hoặc đơn giản là dành trọn một ngày không vội."
+      },
+      {
+        "question": "Mơ có phù hợp với gia đình và đoàn nhỏ?",
+        "answer": "Có. Mơ có nhiều hạng phòng, khu vui chơi trẻ nhỏ, sân cỏ và không gian chung. Khi nhắn đặt phòng, Mơ sẽ gợi ý cách bố trí phù hợp với số người và độ tuổi."
+      },
+      {
+        "question": "Nên đặt phòng trước bao lâu?",
+        "answer": "Với cuối tuần và dịp lễ, bạn nên liên hệ sớm để giữ hạng phòng mong muốn. Giá và ưu đãi thay đổi theo ngày, vì vậy Mơ sẽ báo trực tiếp cho từng kỳ nghỉ."
+      }
+    ]
+  },
+  "beforeYouGo": {
+    "title": "Trước khi đi Mơ",
+    "whatToBring": {
+      "title": "Nên mang theo",
+      "item0": "Quần áo mỏng, thoáng mát (mùa hè) hoặc áo ấm (mùa đông)",
+      "item1": "Dép lê, giày thể thao thoải mái để đi bộ",
+      "item2": "Đồ bơi nếu muốn sử dụng bể bơi, bể sục",
+      "item3": "Kem chống nắng và mũ (nếu đi ngoài trời nhiều)",
+      "item4": "Thuốc cá nhân nếu có bệnh lý riêng",
+      "item5": "Máy ảnh để lưu lại những khoảnh khắc đẹp"
+    },
+    "checkInOut": {
+      "title": "Giờ nhận - trả phòng",
+      "checkInLabel": "Nhận phòng",
+      "checkInTime": "14:00",
+      "checkOutLabel": "Trả phòng",
+      "checkOutTime": "12:00",
+      "note": "Nếu muốn nhận phòng sớm hoặc trả phòng muộn, vui lòng liên hệ trước"
+    },
+    "policies": {
+      "title": "Chính sách",
+      "policy0": "Hoàn tiền 100% nếu hủy trước 7 ngày",
+      "policy1": "Hoàn tiền 50% nếu hủy trước 3 ngày",
+      "policy2": "Không hoàn tiền nếu hủy trong vòng 3 ngày trước ngày nhận phòng",
+      "policy3": "Chính sách có thể thay đổi vào mùa cao điểm, vui lòng liên hệ để biết chi tiết"
+    }
   }
 }

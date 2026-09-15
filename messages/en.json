@@ -6,14 +6,15 @@
     "experiences": "Experiences",
     "gallery": "Gallery",
     "packages": "Packages",
-    "booking": "Book Now"
+    "directions": "Getting to Mơ",
+    "booking": "Book your stay"
   },
   "hero": {
     "title": "Mơ Village",
     "subtitle": "A gentle dream on Hòa Bình Lake",
     "tagline": "Hòa Bình is a kinder place here",
     "cta": "Explore Now",
-    "ctaPrimary": "Book Now",
+    "ctaPrimary": "Book your stay",
     "ctaSecondary": "Explore Rooms"
   },
   "story": {
@@ -155,39 +156,43 @@
     "onsiteTitle": "Activities at Mơ",
     "onsite": [
       {
-        "name": "Kayaking",
-        "description": "Explore Hòa Bình Lake by kayak in early morning, watch the mist"
+        "name": "4-Season Onsen Hot Tub",
+        "description": "Relax in natural hot spring pools surrounded by mountains and forest"
       },
       {
-        "name": "Fishing",
-        "description": "Fish from floating rafts, enjoy fresh grilled catch on the spot"
+        "name": "Wet & Dry Sauna",
+        "description": "Detox and cleanse your body and mind in our wellness facilities"
       },
       {
-        "name": "Floating rafts",
-        "description": "Relax on floating rafts in the middle of the lake, watch clouds and distant mountains"
+        "name": "Herbal Bath Soaking",
+        "description": "Soak in natural herbal baths to restore energy and vitality"
       },
       {
-        "name": "Boat tours",
+        "name": "Lake Recreation",
+        "description": "Kayak, canoe, fishing - explore Hòa Bình Lake in many ways"
+      },
+      {
+        "name": "Lake Boat Tours",
         "description": "Sunset cruise, visit floating villages and fishing communities"
       },
       {
-        "name": "Team building",
-        "description": "Outdoor team building activities with lake and mountain backdrop"
+        "name": "Team Building",
+        "description": "Host team building events for companies and large groups with outdoor activities and private spaces"
       }
     ],
     "workshopsTitle": "Workshops & Culture",
     "workshops": [
       {
         "name": "Floral arrangement",
-        "description": "Natural-style flower arranging workshop with local blooms"
+        "description": "Natural-style flower arranging workshop with local blooms, expressing the simple beauty of Hòa Bình's mountains and forests"
       },
       {
         "name": "Baking",
-        "description": "Learn traditional Mường and modern baking"
+        "description": "Learn traditional Mường cakes like sticky rice cake, green rice flakes, and modern pastries from local ingredients"
       },
       {
         "name": "Handicrafts",
-        "description": "Weaving, woodworking, learn Mường traditional crafts"
+        "description": "Weave traditional Mường brocade patterns, woodworking, and learn traditional crafts from local artisans"
       }
     ],
     "nearbyTitle": "Nearby Attractions",
@@ -195,22 +200,22 @@
       {
         "name": "Chúa Thác Bờ",
         "distance": "15km",
-        "description": "Majestic 300m waterfall, famous check-in spot"
+        "description": "Majestic 300m waterfall with spectacular scenery, where visitors can admire pristine nature and capture beautiful photos"
       },
       {
         "name": "Suối Ké",
         "distance": "8km",
-        "description": "Crystal clear natural stone stream, perfect for swimming"
+        "description": "Crystal clear natural stone stream with cool water year-round, an ideal place to swim and relax in nature"
       },
       {
         "name": "Hang Lỗ Làn",
         "distance": "12km",
-        "description": "Natural cave with unique stalactites"
+        "description": "Natural cave with stalactites formed over thousands of years, a unique geological wonder of Hòa Bình limestone mountains"
       },
       {
         "name": "Bản Sưng",
         "distance": "10km",
-        "description": "Traditional Mường village, experience local culture"
+        "description": "Traditional Mường village preserving indigenous culture, where you can experience the lifestyle, clothing, and cuisine of Mường people"
       }
     ]
   },
@@ -253,12 +258,24 @@
   "booking": {
     "eyebrow": "Make a Reservation",
     "title": "Book Now",
+    "connectWith": "Or connect with us directly",
+    "cta": {
+      "eyebrow": "SEND AN INVITATION",
+      "heading": "This weekend, shall we go to Mơ?",
+      "subheading": "Pick your dates, pick your companions. The paperwork's yours to draft, let Mơ prepare the rest.",
+      "button": "Book Your Stay"
+    },
+    "zaloInfo": "Contact us on Zalo for fastest response",
+    "facebookInfo": "Or connect with us on Facebook",
+    "responseTime": "We typically respond within 1-2 hours",
     "form": {
       "name": "Full Name",
       "phone": "Phone Number",
       "checkin": "Check-in Date",
       "checkout": "Check-out Date",
       "guests": "Number of Guests",
+      "roomPreference": "Room Preference",
+      "selectRoom": "Select room type",
       "requests": "Special Requests",
       "submit": "Submit Request",
       "submitting": "Sending...",
@@ -269,6 +286,68 @@
     "directions": {
       "title": "Directions",
       "description": "From Hanoi: take Highway 6, pass Mai Châu, turn left to Đà Bắc. About 2.5 hours drive."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "address": "Đà Bắc, Hòa Bình, Vietnam",
+    "phone": "+84 123 456 789",
+    "email": "hello@movillage.vn"
+  },
+  "footer": {
+    "copyright": "© 2024 Mơ Village. All rights reserved.",
+    "social": "Connect with us"
+  },
+  "directions": {
+    "title": "Getting to Mơ",
+    "subtitle1": "Leave the city for a while.",
+    "subtitle2": "Touch the lake up close.",
+    "subtitle3": "From central Hanoi, a journey of over 100km takes you through mountain slopes and lakeside roads. Beautiful route with some winding passes — take it slow, Mơ will still be here waiting.",
+    "getDirections": "Get Directions",
+    "faq": [
+      {
+        "question": "How far is Mơ from Hanoi?",
+        "answer": "Mơ sits by Hòa Bình Lake in Đà Bắc area, over 100km from Hanoi. Travel time is usually 3–3.5 hours depending on route and traffic conditions."
+      },
+      {
+        "question": "What can you do at Mơ?",
+        "answer": "You can kayak, swim among mountains and forests, relax in hot tubs, sauna, read books, fish, enjoy Northwest flavors, or simply spend a whole day unhurried."
+      },
+      {
+        "question": "Is Mơ suitable for families and small groups?",
+        "answer": "Yes. Mơ has various room types, children's play areas, lawns, and common spaces. When you book, Mơ will suggest arrangements suitable for your group size and ages."
+      },
+      {
+        "question": "How far in advance should I book?",
+        "answer": "For weekends and holidays, contact us early to secure your preferred room type. Prices and promotions vary by date, so Mơ will quote directly for each stay."
+      }
+    ]
+  },
+  "beforeYouGo": {
+    "title": "Before You Go",
+    "whatToBring": {
+      "title": "What to bring",
+      "item0": "Light, breathable clothes (summer) or warm layers (winter)",
+      "item1": "Slippers, comfortable sneakers for walking",
+      "item2": "Swimwear if using pool or hot tub facilities",
+      "item3": "Sunscreen and hat (if spending time outdoors)",
+      "item4": "Personal medications if needed",
+      "item5": "Camera to capture beautiful moments"
+    },
+    "checkInOut": {
+      "title": "Check-in & Check-out",
+      "checkInLabel": "Check-in",
+      "checkInTime": "2:00 PM",
+      "checkOutLabel": "Check-out",
+      "checkOutTime": "12:00 PM",
+      "note": "For early check-in or late check-out, please contact us in advance"
+    },
+    "policies": {
+      "title": "Policies",
+      "policy0": "100% refund if cancelled 7+ days before arrival",
+      "policy1": "50% refund if cancelled 3-7 days before arrival",
+      "policy2": "No refund if cancelled within 3 days of arrival",
+      "policy3": "Policies may vary during peak season, please contact us for details"
     }
   }
 }

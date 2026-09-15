@@ -3,6 +3,7 @@
 import { useTranslations } from 'next-intl';
 import BackgroundVideo from '@/components/BackgroundVideo';
 import { motion } from 'motion/react';
+import Image from 'next/image';
 
 export default function Hero() {
   const t = useTranslations('hero');
@@ -10,13 +11,13 @@ export default function Hero() {
   return (
     <section className="relative h-screen w-full overflow-hidden">
       <BackgroundVideo
-        src="/videos/hero-mist-lake.mp4"
-        poster="/images/hero-poster.jpg"
+        src="/videos/hero-lake-dawn-4k.mp4"
+        poster="/images/hero-poster-4k.jpg"
         alt="Mơ Village misty lake at dawn"
       />
-      
+
       <div className="absolute inset-0 bg-gradient-to-b from-espresso/20 via-transparent to-espresso/40" />
-      
+
       <div className="relative z-10 flex h-full items-center justify-center px-6 text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -24,14 +25,20 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.5 }}
           className="max-w-4xl"
         >
-          <h1 className="text-display-xl mb-6 text-warm-paper drop-shadow-lg">
-            {t('title')}
-          </h1>
-          
-          <p className="text-body-xl mb-8 text-warm-paper drop-shadow max-w-2xl mx-auto">
+          <div className="relative w-80 h-36 sm:w-[30rem] sm:h-48 lg:w-[36rem] lg:h-60 mx-auto mb-6">
+            <Image
+              src="/01-mo-village-primary-stacked.svg"
+              alt={t('title')}
+              fill
+              className="object-contain drop-shadow-2xl"
+              priority
+            />
+          </div>
+
+          <p className="text-body-2xl lg:text-display-sm mb-8 text-warm-paper drop-shadow max-w-2xl mx-auto">
             {t('subtitle')}
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="#booking"
