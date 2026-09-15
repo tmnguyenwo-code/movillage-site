@@ -1,0 +1,333 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "story": "Câu chuyện",
+    "rooms": "Phòng nghỉ",
+    "experiences": "Trải nghiệm",
+    "gallery": "Thư viện",
+    "packages": "Gói dịch vụ",
+    "booking": "Đặt phòng"
+  },
+  "hero": {
+    "title": "Mơ Village",
+    "subtitle": "Một giấc mơ dịu trên mặt hồ Hòa Bình",
+    "tagline": "Hòa Bình is a kinder place here",
+    "cta": "Khám phá ngay",
+    "ctaPrimary": "Đặt phòng ngay",
+    "ctaSecondary": "Xem phòng"
+  },
+  "story": {
+    "eyebrow": "Chuyện của Mơ",
+    "title": "Một giấc mơ dịu trên mặt hồ Hòa Bình",
+    "intro": "Mơ Village là khu nghỉ dưỡng ven hồ kết hợp sự bình yên của nước, sương mù, rừng cây với sự ấm áp của kiến trúc nhà sàn Mường. Một nơi hiện đại, nhẹ nhàng kỳ ảo để nghỉ ngơi, kết nối và khám phá.",
+    "lake": {
+      "title": "Hồ Hòa Bình",
+      "description": "Hồ nhân tạo lớn nhất Việt Nam, hình thành từ đập thủy điện Hòa Bình năm 1994. Diện tích 230 km², sâu tới 40m, với cảnh sương mù huyền ảo vào buổi sáng."
+    },
+    "location": {
+      "title": "Đà Bắc - Hòa Bình",
+      "description": "Cách Hà Nội 100km (2 giờ lái xe). Vùng đất của người Mường với văn hóa truyền thống đậm đà. Khí hậu mát mẻ quanh năm, nhiều thác nước và hang động."
+    },
+    "design": {
+      "title": "Kiến trúc nhà sàn",
+      "description": "Lấy cảm hứng từ nhà sàn truyền thống Mường với cột gỗ, mái lợp tranh, và không gian thoáng. Kết hợp hài hòa giữa di sản văn hóa và tiện nghi hiện đại."
+    }
+  },
+  "about": {
+    "title": "Về Mơ Village",
+    "description": "Mơ Village là khu nghỉ dưỡng sinh thái nằm giữa lòng Đà Bắc, Hòa Bình. Chúng tôi mang đến trải nghiệm độc đáo kết hợp giữa kiến trúc truyền thống Mường và tiện nghi hiện đại, giữa thiên nhiên hoang sơ và văn hóa bản địa.",
+    "features": {
+      "nature": {
+        "title": "Thiên nhiên nguyên sơ",
+        "description": "Được bao quanh bởi rừng cây xanh mát và suối nước trong lành"
+      },
+      "culture": {
+        "title": "Văn hóa Mường",
+        "description": "Trải nghiệm cuộc sống và văn hóa đặc trưng của người Mường"
+      },
+      "comfort": {
+        "title": "Tiện nghi hiện đại",
+        "description": "Phòng nghỉ sang trọng với đầy đủ tiện nghi, wifi tốc độ cao"
+      }
+    }
+  },
+  "rooms": {
+    "eyebrow": "Mơ có gì",
+    "title": "Các hạng phòng nghỉ",
+    "subtitle": "Từ nhà sàn ấm cúng đến villa rộng rãi, mỗi không gian mang dấu ấn riêng",
+    "list": [
+      {
+        "name": "Nhà Táo",
+        "capacity": "2 người",
+        "description": "Phòng đôi ấm cúng với view hồ, thiết kế tối giản nhưng đầy đủ tiện nghi",
+        "features": [
+          "View hồ Hòa Bình",
+          "Giường đôi king size",
+          "Phòng tắm riêng với vòi sen",
+          "Ban công riêng"
+        ]
+      },
+      {
+        "name": "Nhà Đào",
+        "capacity": "2 người",
+        "description": "Phòng double với ban công riêng, không gian yên tĩnh hướng rừng",
+        "features": [
+          "View rừng thông",
+          "2 giường đơn hoặc giường đôi",
+          "Phòng tắm với bồn tắm",
+          "Góc làm việc"
+        ]
+      },
+      {
+        "name": "Nhà Mận",
+        "capacity": "2 người",
+        "description": "Suite cao cấp với phòng tắm lớn, view hồ toàn cảnh",
+        "features": [
+          "View hồ panorama",
+          "Phòng khách riêng",
+          "Bồn tắm ngâm",
+          "Minibar & máy pha cà phê"
+        ]
+      },
+      {
+        "name": "Nhà Mít",
+        "capacity": "3 người",
+        "description": "Phòng gia đình nhỏ với 3 giường đơn, phù hợp cho nhóm bạn",
+        "features": [
+          "3 giường đơn",
+          "Phòng tắm lớn",
+          "Không gian chung rộng",
+          "Tủ lạnh mini"
+        ]
+      },
+      {
+        "name": "Nhà Sang",
+        "capacity": "8 người",
+        "description": "Villa lớn với 3 phòng ngủ, bếp đầy đủ, không gian chung rộng",
+        "features": [
+          "3 phòng ngủ riêng biệt",
+          "Bếp đầy đủ thiết bị",
+          "Phòng khách lớn",
+          "Sân hiên BBQ riêng"
+        ]
+      },
+      {
+        "name": "Nhà Cộng đồng",
+        "capacity": "20 người",
+        "description": "Không gian dorm cho nhóm lớn, team building, workshop",
+        "features": [
+          "Giường tầng cho 20 người",
+          "Phòng tắm chung 4 vòi sen",
+          "Khu vực sinh hoạt chung",
+          "Phù hợp team building"
+        ]
+      }
+    ],
+    "types": {
+      "nha-tao": {
+        "name": "Nhà Táo",
+        "capacity": "2 người",
+        "description": "Phòng đôi ấm cúng với view hồ, thiết kế tối giản nhưng đầy đủ tiện nghi"
+      },
+      "nha-dao": {
+        "name": "Nhà Đào",
+        "capacity": "2 người",
+        "description": "Phòng double với ban công riêng, không gian yên tĩnh hướng rừng"
+      },
+      "nha-man": {
+        "name": "Nhà Mận",
+        "capacity": "2 người",
+        "description": "Suite cao cấp với phòng tắm lớn, view hồ toàn cảnh"
+      },
+      "nha-mit": {
+        "name": "Nhà Mít",
+        "capacity": "3 người",
+        "description": "Phòng gia đình nhỏ với 3 giường đơn, phù hợp cho nhóm bạn"
+      },
+      "nha-sang": {
+        "name": "Nhà Sang",
+        "capacity": "8 người",
+        "description": "Villa lớn với 3 phòng ngủ, bếp đầy đủ, không gian chung rộng"
+      },
+      "nha-cong-dong": {
+        "name": "Nhà Cộng đồng",
+        "capacity": "20 người",
+        "description": "Không gian dorm cho nhóm lớn, team building, workshop"
+      }
+    },
+    "amenities": {
+      "title": "Tiện ích chung",
+      "pool": "Hồ bơi ngoài trời",
+      "spa": "Spa & massage",
+      "yoga": "Sàn yoga view hồ",
+      "jacuzzi": "Jacuzzi khoáng nóng",
+      "restaurant": "Nhà hàng Tây Bắc",
+      "cafe": "Quầy cafe ven hồ"
+    }
+  },
+  "experiences": {
+    "eyebrow": "Trải nghiệm",
+    "title": "Khám phá và tận hưởng",
+    "description": "Từ hoạt động phiêu lưu đến workshop nghệ thuật, mỗi trải nghiệm là một kỷ niệm",
+    "subtitle": "Từ hoạt động phiêu lưu đến workshop nghệ thuật, mỗi trải nghiệm là một kỷ niệm",
+    "onsiteTitle": "Hoạt động tại Mơ",
+    "onsite": [
+      {
+        "name": "Chèo kayak",
+        "description": "Khám phá hồ Hòa Bình bằng kayak vào buổi sáng sớm, ngắm sương mù"
+      },
+      {
+        "name": "Câu cá",
+        "description": "Câu cá trên bè nổi, thưởng thức cá tươi nướng ngay tại chỗ"
+      },
+      {
+        "name": "Bè nổi",
+        "description": "Nghỉ ngơi trên bè nổi giữa hồ, ngắm mây trôi và núi xa"
+      },
+      {
+        "name": "Tour thuyền",
+        "description": "Du thuyền ngắm hoàng hôn, ghé thăm làng nổi và làng cá"
+      },
+      {
+        "name": "Team building",
+        "description": "Các hoạt động xây dựng đội nhóm ngoài trời với backdrop hồ núi"
+      }
+    ],
+    "workshopsTitle": "Workshop & văn hóa",
+    "workshops": [
+      {
+        "name": "Cắm hoa",
+        "description": "Workshop cắm hoa phong cách tự nhiên với hoa địa phương"
+      },
+      {
+        "name": "Làm bánh",
+        "description": "Học làm bánh truyền thống Mường và bánh hiện đại"
+      },
+      {
+        "name": "Thủ công",
+        "description": "Dệt thổ cẩm, làm đồ gỗ, học nghề thủ công Mường"
+      }
+    ],
+    "nearbyTitle": "Điểm đến lân cận",
+    "nearby": [
+      {
+        "name": "Chúa Thác Bờ",
+        "distance": "15km",
+        "description": "Thác nước hùng vĩ cao 300m, điểm check-in nổi tiếng"
+      },
+      {
+        "name": "Suối Ké",
+        "distance": "8km",
+        "description": "Suối đá tự nhiên trong vắt, lý tưởng để tắm mát"
+      },
+      {
+        "name": "Hang Lỗ Làn",
+        "distance": "12km",
+        "description": "Hang động tự nhiên với nhũ đá độc đáo"
+      },
+      {
+        "name": "Bản Sưng",
+        "distance": "10km",
+        "description": "Bản làng Mường truyền thống, trải nghiệm văn hóa bản địa"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Thư viện ảnh",
+    "description": "Những khoảnh khắc đẹp tại Mơ Village"
+  },
+  "packages": {
+    "eyebrow": "Gói & Dịch vụ",
+    "title": "Các gói combo & dịch vụ",
+    "subtitle": "Chọn gói phù hợp hoặc tùy chỉnh theo nhu cầu của bạn",
+    "twoDay": {
+      "name": "2 ngày 1 đêm",
+      "price": "Từ 1.800.000đ/người",
+      "schedule": [
+        "1 đêm nghỉ + ăn sáng + 1 bữa chính",
+        "Chèo kayak hoặc câu cá + sử dụng hồ bơi, sàn yoga"
+      ]
+    },
+    "threeDay": {
+      "name": "3 ngày 2 đêm",
+      "price": "Từ 3.200.000đ/người",
+      "badge": "Phổ biến",
+      "schedule": [
+        "2 đêm nghỉ + ăn sáng + 2 bữa chính",
+        "Tour thuyền hoàng hôn + 1 workshop (cắm hoa hoặc làm bánh)",
+        "Spa massage 60 phút + sử dụng đầy đủ tiện ích"
+      ]
+    }
+  },
+  "dining": {
+    "title": "Ẩm thực",
+    "description": "Thưởng thức đặc sản Mường và món Việt hiện đại tại nhà hàng của chúng tôi.",
+    "menu": {
+      "local": {
+        "name": "Đặc sản Mường",
+        "description": "Cơm lam, gà đồi, rau rừng"
+      },
+      "vietnamese": {
+        "name": "Món Việt",
+        "description": "Phở, bún chả, nem rán"
+      },
+      "vegetarian": {
+        "name": "Món chay",
+        "description": "Đậu hũ, rau xào, canh nấm"
+      }
+    }
+  },
+  "activities": {
+    "title": "Hoạt động",
+    "description": "Khám phá thiên nhiên và văn hóa địa phương qua các hoạt động đa dạng.",
+    "list": {
+      "trekking": {
+        "name": "Trekking",
+        "description": "Khám phá rừng núi và thác nước"
+      },
+      "cycling": {
+        "name": "Đạp xe",
+        "description": "Tour đạp xe qua các bản làng"
+      },
+      "culture": {
+        "name": "Văn hóa",
+        "description": "Học dệt thổ cẩm và nấu ăn Mường"
+      },
+      "relaxation": {
+        "name": "Thư giãn",
+        "description": "Yoga, massage, thiền"
+      }
+    }
+  },
+  "booking": {
+    "eyebrow": "Đặt phòng ngay",
+    "title": "Đặt phòng",
+    "form": {
+      "name": "Họ và tên",
+      "phone": "Số điện thoại",
+      "checkin": "Ngày nhận phòng",
+      "checkout": "Ngày trả phòng",
+      "guests": "Số khách",
+      "requests": "Yêu cầu đặc biệt",
+      "submit": "Gửi yêu cầu",
+      "submitting": "Đang gửi...",
+      "success": "Đã gửi yêu cầu đặt phòng thành công. Chúng tôi sẽ liên hệ sớm nhất!",
+      "error": "Đã xảy ra lỗi. Vui lòng thử lại.",
+      "networkError": "Không thể kết nối. Vui lòng kiểm tra mạng."
+    },
+    "directions": {
+      "title": "Chỉ đường",
+      "description": "Từ Hà Nội: đi theo Quốc lộ 6, qua Mai Châu, rẽ trái vào Đà Bắc. Khoảng 2.5 giờ lái xe."
+    }
+  },
+  "contact": {
+    "title": "Liên hệ",
+    "address": "Đà Bắc, Hòa Bình, Việt Nam",
+    "phone": "+84 123 456 789",
+    "email": "hello@movillage.vn"
+  },
+  "footer": {
+    "copyright": "© 2024 Mơ Village. Bảo lưu mọi quyền.",
+    "social": "Kết nối với chúng tôi"
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "nav": {
+    "home": "Home",
+    "story": "Our Story",
+    "rooms": "Rooms",
+    "experiences": "Experiences",
+    "gallery": "Gallery",
+    "packages": "Packages",
+    "booking": "Book Now"
+  },
+  "hero": {
+    "title": "Mơ Village",
+    "subtitle": "A gentle dream on Hòa Bình Lake",
+    "tagline": "Hòa Bình is a kinder place here",
+    "cta": "Explore Now",
+    "ctaPrimary": "Book Now",
+    "ctaSecondary": "Explore Rooms"
+  },
+  "story": {
+    "eyebrow": "The Story of Mơ",
+    "title": "A gentle dream on Hòa Bình Lake",
+    "intro": "Mơ Village is a lakeside retreat blending the calm of water, mist, and forest with the warmth of Mường stilt-house vernacular. A contemporary, quietly whimsical place to rest, reconnect, and explore.",
+    "lake": {
+      "title": "Hòa Bình Lake",
+      "description": "Vietnam's largest artificial lake, formed by Hòa Bình Dam in 1994. Covers 230 km², reaches 40m depth, with ethereal morning mist creating dreamlike vistas."
+    },
+    "location": {
+      "title": "Đà Bắc - Hòa Bình",
+      "description": "100km from Hanoi (2-hour drive). Home to Mường ethnic communities with rich cultural traditions. Cool climate year-round, dotted with waterfalls and caves."
+    },
+    "design": {
+      "title": "Stilt House Architecture",
+      "description": "Inspired by traditional Mường stilt houses with wooden pillars, thatched roofs, and airy spaces. Harmoniously blending cultural heritage with modern comfort."
+    }
+  },
+  "rooms": {
+    "eyebrow": "What Mơ Offers",
+    "title": "Room Categories",
+    "subtitle": "From cozy stilt houses to spacious villas, each space carries its own character",
+    "list": [
+      {
+        "name": "Nhà Táo",
+        "capacity": "2 guests",
+        "description": "Cozy double room with lake view, minimalist design with full amenities",
+        "features": [
+          "Hòa Bình Lake view",
+          "King size double bed",
+          "Private bathroom with shower",
+          "Private balcony"
+        ]
+      },
+      {
+        "name": "Nhà Đào",
+        "capacity": "2 guests",
+        "description": "Double room with private balcony, quiet forest-facing space",
+        "features": [
+          "Pine forest view",
+          "2 single beds or double bed",
+          "Bathroom with bathtub",
+          "Work desk"
+        ]
+      },
+      {
+        "name": "Nhà Mận",
+        "capacity": "2 guests",
+        "description": "Premium suite with large bathroom, panoramic lake view",
+        "features": [
+          "Panoramic lake view",
+          "Separate living room",
+          "Soaking bathtub",
+          "Minibar & coffee maker"
+        ]
+      },
+      {
+        "name": "Nhà Mít",
+        "capacity": "3 guests",
+        "description": "Small family room with 3 single beds, perfect for friends",
+        "features": [
+          "3 single beds",
+          "Large bathroom",
+          "Spacious common area",
+          "Mini fridge"
+        ]
+      },
+      {
+        "name": "Nhà Sang",
+        "capacity": "8 guests",
+        "description": "Large villa with 3 bedrooms, full kitchen, spacious common area",
+        "features": [
+          "3 separate bedrooms",
+          "Fully equipped kitchen",
+          "Large living room",
+          "Private BBQ terrace"
+        ]
+      },
+      {
+        "name": "Nhà Cộng đồng",
+        "capacity": "20 guests",
+        "description": "Dorm space for large groups, team building, workshops",
+        "features": [
+          "Bunk beds for 20 people",
+          "Shared bathrooms with 4 showers",
+          "Common activity area",
+          "Perfect for team building"
+        ]
+      }
+    ],
+    "types": {
+      "nha-tao": {
+        "name": "Nhà Táo",
+        "capacity": "2 guests",
+        "description": "Cozy double room with lake view, minimalist design with full amenities"
+      },
+      "nha-dao": {
+        "name": "Nhà Đào",
+        "capacity": "2 guests",
+        "description": "Double room with private balcony, quiet forest-facing space"
+      },
+      "nha-man": {
+        "name": "Nhà Mận",
+        "capacity": "2 guests",
+        "description": "Premium suite with large bathroom, panoramic lake view"
+      },
+      "nha-mit": {
+        "name": "Nhà Mít",
+        "capacity": "3 guests",
+        "description": "Small family room with 3 single beds, perfect for friends"
+      },
+      "nha-sang": {
+        "name": "Nhà Sang",
+        "capacity": "8 guests",
+        "description": "Large villa with 3 bedrooms, full kitchen, spacious common area"
+      },
+      "nha-cong-dong": {
+        "name": "Nhà Cộng đồng",
+        "capacity": "20 guests",
+        "description": "Dorm space for large groups, team building, workshops"
+      }
+    },
+    "amenities": {
+      "title": "Shared Facilities",
+      "pool": "Outdoor pool",
+      "spa": "Spa & massage",
+      "yoga": "Yoga deck with lake view",
+      "jacuzzi": "Hot mineral jacuzzi",
+      "restaurant": "Northwest restaurant",
+      "cafe": "Lakeside cafe"
+    }
+  },
+  "experiences": {
+    "eyebrow": "Experiences",
+    "title": "Discover and Enjoy",
+    "description": "From adventure activities to art workshops, each experience becomes a memory",
+    "subtitle": "From adventure activities to art workshops, each experience becomes a memory",
+    "onsiteTitle": "Activities at Mơ",
+    "onsite": [
+      {
+        "name": "Kayaking",
+        "description": "Explore Hòa Bình Lake by kayak in early morning, watch the mist"
+      },
+      {
+        "name": "Fishing",
+        "description": "Fish from floating rafts, enjoy fresh grilled catch on the spot"
+      },
+      {
+        "name": "Floating rafts",
+        "description": "Relax on floating rafts in the middle of the lake, watch clouds and distant mountains"
+      },
+      {
+        "name": "Boat tours",
+        "description": "Sunset cruise, visit floating villages and fishing communities"
+      },
+      {
+        "name": "Team building",
+        "description": "Outdoor team building activities with lake and mountain backdrop"
+      }
+    ],
+    "workshopsTitle": "Workshops & Culture",
+    "workshops": [
+      {
+        "name": "Floral arrangement",
+        "description": "Natural-style flower arranging workshop with local blooms"
+      },
+      {
+        "name": "Baking",
+        "description": "Learn traditional Mường and modern baking"
+      },
+      {
+        "name": "Handicrafts",
+        "description": "Weaving, woodworking, learn Mường traditional crafts"
+      }
+    ],
+    "nearbyTitle": "Nearby Attractions",
+    "nearby": [
+      {
+        "name": "Chúa Thác Bờ",
+        "distance": "15km",
+        "description": "Majestic 300m waterfall, famous check-in spot"
+      },
+      {
+        "name": "Suối Ké",
+        "distance": "8km",
+        "description": "Crystal clear natural stone stream, perfect for swimming"
+      },
+      {
+        "name": "Hang Lỗ Làn",
+        "distance": "12km",
+        "description": "Natural cave with unique stalactites"
+      },
+      {
+        "name": "Bản Sưng",
+        "distance": "10km",
+        "description": "Traditional Mường village, experience local culture"
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "Photo Gallery",
+    "title": "Moments at Mơ",
+    "subtitle": "Explore spaces, facilities, and memorable experiences",
+    "categories": {
+      "all": "All",
+      "rooms": "Rooms",
+      "facilities": "Facilities",
+      "dining": "Dining",
+      "activities": "Activities",
+      "campus": "Campus"
+    }
+  },
+  "packages": {
+    "eyebrow": "Packages & Services",
+    "title": "Combo packages & services",
+    "subtitle": "Choose a suitable package or customize to your needs",
+    "twoDay": {
+      "name": "2 days 1 night",
+      "price": "From 1,800,000đ/person",
+      "schedule": [
+        "1 night stay + breakfast + 1 main meal",
+        "Kayaking or fishing + pool and yoga deck access"
+      ]
+    },
+    "threeDay": {
+      "name": "3 days 2 nights",
+      "price": "From 3,200,000đ/person",
+      "badge": "Popular",
+      "schedule": [
+        "2 nights stay + breakfast + 2 main meals",
+        "Sunset boat tour + 1 workshop (floral or baking)",
+        "60-minute spa massage + full facility access"
+      ]
+    }
+  },
+  "booking": {
+    "eyebrow": "Make a Reservation",
+    "title": "Book Now",
+    "form": {
+      "name": "Full Name",
+      "phone": "Phone Number",
+      "checkin": "Check-in Date",
+      "checkout": "Check-out Date",
+      "guests": "Number of Guests",
+      "requests": "Special Requests",
+      "submit": "Submit Request",
+      "submitting": "Sending...",
+      "success": "Booking request sent successfully. We will contact you soon!",
+      "error": "An error occurred. Please try again.",
+      "networkError": "Connection failed. Please check your network."
+    },
+    "directions": {
+      "title": "Directions",
+      "description": "From Hanoi: take Highway 6, pass Mai Châu, turn left to Đà Bắc. About 2.5 hours drive."
+    }
+  }
+}
